@@ -11,6 +11,7 @@ import MultipleReturns from './multiple-returns.jsx'
 import ShortCircuitOverview from './truthyFalsy.jsx'
 import ToggleBtn from './toggleBtn.jsx'
 import ToggleChallenge from './toggleChallenge.jsx'
+import CleanupFunc from './cleanup-func.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -34,6 +35,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     < ToggleBtn />
     <hr />
     <ToggleChallenge />
+    <hr />
+    <CleanupFunc />
     <hr />
   </React.StrictMode>,
 )
