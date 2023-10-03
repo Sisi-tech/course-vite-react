@@ -10,6 +10,7 @@ import FetchData from './fetch-data.jsx'
 import MultipleReturns from './multiple-returns.jsx'
 import ShortCircuitOverview from './truthyFalsy.jsx'
 import ToggleBtn from './toggleBtn.jsx'
+import ToggleChallenge from './toggleChallenge.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -31,6 +32,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ShortCircuitOverview />
     <hr />
     < ToggleBtn />
+    <hr />
+    <ToggleChallenge />
     <hr />
   </React.StrictMode>,
 )
