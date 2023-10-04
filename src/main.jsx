@@ -14,6 +14,7 @@ import ToggleChallenge from './toggleChallenge.jsx'
 import CleanupFunc from './cleanup-func.jsx'
 import ControlledInputs from './form.jsx'
 import UserChallenge from './user-challenge.jsx'
+import ShoppingList from './shopping-list.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -43,6 +44,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ControlledInputs />
     <hr />
     <UserChallenge />
+    <hr />
+    <ShoppingList />
     <hr />
   </React.StrictMode>,
 )
