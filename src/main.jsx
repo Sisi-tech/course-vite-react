@@ -12,6 +12,7 @@ import ShortCircuitOverview from './truthyFalsy.jsx'
 import ToggleBtn from './toggleBtn.jsx'
 import ToggleChallenge from './toggleChallenge.jsx'
 import CleanupFunc from './cleanup-func.jsx'
+import ControlledInputs from './form.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -37,6 +38,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ToggleChallenge />
     <hr />
     <CleanupFunc />
+    <hr />
+    <ControlledInputs />
     <hr />
   </React.StrictMode>,
 )
